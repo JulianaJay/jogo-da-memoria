@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1ec3fa23e25083f80932950e5c2c7979.png" />
+    <None Remove="743760ca0e8b50d0acfcc153788f4438.png" />
+    <None Remove="e24b8b35c435acd6cdadf7de74740659.png" />
+    <None Remove="Jogo da memoria.png" />
+    <None Remove="PrimeiraImagem.png" />
+    <None Remove="QuartaImagem.png" />
+    <None Remove="SegundaImagem.png" />
+    <None Remove="TerceiraImagem.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1ec3fa23e25083f80932950e5c2c7979.png" />
+    <Resource Include="743760ca0e8b50d0acfcc153788f4438.png" />
+    <Resource Include="e24b8b35c435acd6cdadf7de74740659.png" />
+    <Resource Include="Jogo da memoria.png" />
+    <Resource Include="PrimeiraImagem.png" />
+    <Resource Include="QuartaImagem.png" />
+    <Resource Include="SegundaImagem.png" />
+    <Resource Include="TerceiraImagem.png" />
+  </ItemGroup>
+
+</Project>
